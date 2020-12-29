@@ -9,6 +9,8 @@ mrate %>%
   geom_bar(width = 0.5, stat = "identity", color = "black") +
   coord_flip()
 
-getwd()
+getwd() #aktuelles Verzeichnis
 save(mrate, file = "rda/mrate.rda")
 ggsave("figs/barplot.png")
+
+summary(mrate)
