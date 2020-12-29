@@ -2,7 +2,8 @@
 title: "Report on Gun Murders"
 author: "Martin"
 date: "`r format(Sys.Date())`"
-output: html_document
+output:
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +16,7 @@ This is a report on 2010 gun murder rates obtained from FBI reports. The origina
 
 We are going to use the following library:
 
-```{r loading-libs, message=FALSE}
+```{r loading-libs, message=F}
 library(tidyverse)
 ```
   
